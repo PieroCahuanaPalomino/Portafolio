@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	<title></title>
+	<!--FAVICON-->
+	<link rel="shortcut icon" href="assets/img/favicon.png">
+	<!--BOXICONS-->
+	<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>	
+	<!--SWIPER CSS-->
+
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="particles-js"></div>
+	<header class="header" id="header">
+		<nav class="nav container">
+			<a href="#" class="nav__logo">Piero Cahuana</a>
+			<div class="nav__menu">
+				<ul class="nav__list">
+
+					<li class="nav__item"  data-url="home">
+						<a href="#home" class="nav__link">
+							<i class='bx bx-home-alt'></i>
+						</a>
+					</li>
+
+
+					<li class="nav__item" data-url="about">
+						<a href="#about" class="nav__link">
+							<i class='bx bx-user' ></i>
+						</a>
+					</li>
+
+
+					<li class="nav__item" data-url="skills">
+						<a href="#skills" class="nav__link">
+							<i class='bx bx-book' ></i>
+						</a>
+					</li>
+
+					<li class="nav__item" data-url="work">
+						<a href="#work" class="nav__link">
+							<i class='bx bx-briefcase-alt-2' ></i>
+						</a>
+					</li>
+
+					<li class="nav__item" data-url="contact">
+						<a href="#contact" class="nav__link">
+							<i class='bx bx-message-square-detail' ></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!---boton--->
+			<i class='bx bx-moon change-theme' id="theme-button"></i>
+			
+		</nav>
+	</header>
+
+	<main class="main">
+		<section class="home section section2" id="home"> 
+			<div class="home__container container grid">
+				<div class="home__data">
+					<span class="home__greeting">Hola </span>
+					<h1 class="home__name">Piero Raul</h1>
+					<h3 class="home__Education">Programador JAVA</h3>
+			
+					<div class="home__buttons">
+						<a href="assets/pdf/CV-PIERO-CAHUANA.pdf" download="CV PIERO CAHUANA" target="_blank" class="button button--ghost">Descargar CV</a>
+						<a href="#about" class="button">Acerca de mi</a>
+					</div>
+				</div>
+
+
+				<div class="home__handle">
+					<img src="assets/img/perfil1.png" alt="perfil" class="home__img">
+				</div>
+				<div class="home__social">
+					<a href="http://www.linkedin.com/" target="_blank" class="home__social-link">
+						<i class='bx bxl-linkedin-square'></i>
+					</a>
+					<a href="http://github.com/" target="_blank" class="home__social-link">
+						<i class='bx bxl-github' ></i>
+					</a>
+					<a href="http://dribbble.com/" target="_blank" class="home__social-link">
+						<i class='bx bxl-dribbble' ></i>
+					</a>
+				</div>
+
+				<a href="#about" class="home__scroll">
+					<i class='bx bx-mouse home__scroll-icon' ></i>
+					<span class="home__scroll-name">Hacia abajo</span>
+				</a>
+			</div>
+		</section>
+
+
+<!--ABOUT-->
+		<section class="about section section2" id="about">
+			<span class="section__subtitle">Mi introduccion</span>
+			<h2 class="section__title"> Acerca de mi</h2>
+
+			<div class="about__container container grid">
+				<img src="assets/img/perfil2.jpeg" alt="about" class="about__img">
+				
+				<div class="about__data">
+					<div class="about__info">
+						<div class="about__box">
+							<i class='bx bx-award about__icon'></i>
+							<h3 class="about__title">Experiencia</h3>
+							<span class="about__subtitle">1 año laboral</span>
+						</div>
+						<div class="about__box">
+							<i class='bx bx-briefcase about__icon' ></i>
+							<h3 class="about__title">Estudiante</h3>
+							<span class="about__subtitle">Proyectos universitarios</span>
+						</div>
+						<div class="about__box">
+							<i class='bx bx-support about__icon' ></i>
+							<h3 class="about__title">Apoyo</h3>
+							<span class="about__subtitle">Online 24/7</span>
+						</div>
+					</div>
+			
+					<p class="about__description">
+						Hola mi nombre es Piero Cahuana y soy programador JAVA cursando la carrera de Ingenieria de Sistemas.
+						Tengo 20 años y me encuentro estudiando en la Universidad Nacional Mayor de San Marcos , poseo conocimientos en el desarrollo de aplicaciones web y sitios web asi mismo cuento con el entendimiento de la metodolia SCRUM aplicado en mis proyectos.
+					</p>
+					<a href="#contact" class="button">Contactame</a>
+				</div>
+			</div>	
+		</section>
+
+
+		<section class="skills section section2" id="skills">
+			<span class="section__subtitle">Habilidades</span>
+			<h2 class="section__title">Mi Experiencia</h2>
+		
+			<div class="skills__container container grid">
+				<div class="skills__content">
+					<h3 class="skills__title">Backend developer</h3>
+					<div class="skills__box">
+						<div class="skills__group">
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">Java</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">Mysql</h3>
+									<span class="skills__level">Basico</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">JSF</h3>
+									<span class="skills__level">Basico</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">EJB</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="skills__group">
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">JPA</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">Struts</h3>
+									<span class="skills__level">Basico</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">JPQL</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">Criteria</h3>
+									<span class="skills__level">Basico</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="skills__content">
+					<h3 class="skills__title">Frontend developer</h3>
+					<div class="skills__box">
+						<div class="skills__group">
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">HTML</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">CSS</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">JavaScript</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+						</div>
+
+						<div class="skills__group">
+							<div class="skills__data">
+								<i class='bx bx-badge-check' ></i>
+								<div>
+									<h3 class="skills__name">Bootstrap</h3>
+									<span class="skills__level">Intermedio</span>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!---SERVICIOS-->
+		<section class="services section" id="services">
+			<span class="section__subtitle">Mis servicios</span>
+			<h2 class="section__title">Lo que ofrezco</h2>
+			<div class="services__container container grid">
+				<div class="services__card">
+					<h3 class="services__title">Desarrollo<br>de Aplicaciones</h3>
+					<span class="services__button">
+						Ver más<i class="bx bx-right-arrow-alt services__icon"></i>
+					</span>
+					<div class="services__modal">
+						<div class="services__modal-content">
+							<i class="bx bx-x services__modal-close"></i>
+							<h3 class="services__modal-title">Desarrollo de Aplicaciones</h3>
+							<p class="services__modal-description">
+								Mis principales tecnologías a usar son JAVA y Spring Boot 
+							</p>
+							<ul class="services__modal-list">
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Desarrollo de una aplicación escalable
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Personalizacion de las funcionalidades
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info info">
+										Encriptación de datos
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Programacion de aplicación por capas
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Creación de reportes según se especifique
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="services__card">
+					<h3 class="services__title">Diseño<br> de la Aplicación</h3>
+					<span class="services__button">
+						Ver más<i class="bx bx-right-arrow-alt services__icon"></i>
+					</span>
+					<div class="services__modal">
+						<div class="services__modal-content services__modal__div">
+							<i class="bx bx-x services__modal-close"></i>
+							<h3 class="services__modal-title">Diseño de la Aplicacion</h3>
+							<p class="services__modal-description">
+								Mis tecnologías a usar son HTML5 , CSS , Javascript y Bootstrap 
+							</p>
+							<ul class="services__modal-list">
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Personalizacion del diseño
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Diseño Responsivo
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Organizacion y orden
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Atención a los detalles
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Usabilidad y accesivilidad
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="services__card">
+					<h3 class="services__title">Manejo de <br>Base de Datos</h3>
+					<span class="services__button">
+						Ver más<i class="bx bx-right-arrow-alt services__icon"></i>
+					</span>
+					<div class="services__modal">
+						<div class="services__modal-content">
+							<i class="bx bx-x services__modal-close"></i>
+							<h3 class="services__modal-title">Manejo de Base de Datos</h3>
+							<p class="services__modal-description">
+								Mis tecnologías a usar es Mysql y StarUml
+							</p>
+							<ul class="services__modal-list">
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Desarrollo de Base de Datos relacional 
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Elaboración de operaciones con los datos
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Ácceso restringido según el rol del usuario
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Organización de los datos implicados
+									</p>
+								</li>
+								<li class="services__modal-item">
+									<i class="bx bx-check services__modal-icon"></i>
+									<p class="services_modal-info">
+										Disponibilidad, integridad y trzabilidad de datos
+									</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<section class="work section section2" id="work">
+			<span class="section__subtitle">Mis certificados</span>
+			<h2 class="section__title">Estudios Recientes</h2>
+
+			<div class="work__filters">
+				<span class="work__item active__work" data-filter="all">Todos</span>
+				<span class="work__item" data-filter=".web">Java</span>
+				<span class="work__item" data-filter=".web2">Diseño Web</span>
+				<span class="work__item" data-filter=".design">Excel</span>
+			</div>
+
+			<div class="work__container container grid">
+				<div class="work__card mix web">
+					<img src="assets/img/certificado1.png" class="work__img">
+					<h3 class="work__title">Java</h3>
+					<a class="work__button">
+						Mostrar<i class="bx bx-right-arrow-alt work__icon"></i>
+					</a>
+				</div>
+				<div class="work__card mix web2">
+					<img src="assets/img/certificado2.png" class="work__img">
+					<h3 class="work__title">Desarrollo Web Google I</h3>
+					<a  class="work__button">
+						Mostrar<i class="bx bx-right-arrow-alt work__icon"></i>
+					</a>
+				</div>
+				<div class="work__card mix web2">
+					<img src="assets/img/certificado3.png" class="work__img">
+					<h3 class="work__title">Desarrollo Web Google II</h3>
+					<a  class="work__button">
+						Mostrar<i class="bx bx-right-arrow-alt work__icon"></i>
+					</a>
+				</div>
+				<div class="work__card mix design">
+					<img src="assets/img/certificado4.png" class="work__img">
+					<h3 class="work__title">Excel</h3>
+					<a class="work__button">
+						Mostrar<i class="bx bx-right-arrow-alt work__icon"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="imagen-light">
+			<img src="assets/img/close.svg" alt="" class="close">
+			<img src="assets/img/certificado1.png" alt="" class="agregar-imagen">
+		</section>
+
+		<section class="testimonial section" id="testimonial">
+			<span class="section__subtitle">Mis clientes</span>
+			<h2 class="section__title">Testimonios</h2>
+
+			<div class="testimonial__container container swiper">
+				<div class="swiper-wrapper">
+					<div class="testimonial__card swiper-slide">
+						<img src="assets/img/testimonial1.jpeg" alt="" class="testimonial__img">
+						<h3 class="testimonial__name">Daniel Michel Torres Sonco</h3>
+						<p class="testimonial__description">Fue una experiencia de aprendizaje mutuo resaltando la comunicacion y organizacion que se mantuvo en todo momento.</p>
+					</div>
+					<div class="testimonial__card swiper-slide">
+						<img src="assets/img/testimonial2.jpeg" alt="" class="testimonial__img imgTestimonial2">
+						<h3 class="testimonial__name">Enrique Mamani Barreto</h3>
+						<p class="testimonial__description">Estoy agradecido y conforme con toda la seriadad brindada a lo largo del proyecto junto con el buen manejo de los horarios.</p>
+					</div>
+					<div class="testimonial__card swiper-slide">
+						<img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img">
+						<h3 class="testimonial__name">Shirly Dayana Barzola Bruzil</h3>
+						<p class="testimonial__description">Doy mis agradecimientos por el compromiso de estar pendiente a mis demandas y la correcta satisfacción de estas.</p>
+					</div>
+				</div>
+      			<div class="swiper-pagination"></div>
+			</div>
+			
+		</section>
+
+		<section class="contact section section2" id="contact">
+			<span class="section__subtitle">Ponerse en contacto</span>	
+			<h2 class="section__title">Contáctame</h2>
+			
+			<div class="contact__container container grid">
+				<div class="contact__content">
+					
+					<div class="contact__info">
+						<div class="contact__card">
+							<i class='bx bx-mail-send contact__card-icon' ></i>
+							<h3 class="contact__card-title">Email</h3>
+							<span class="contact__card-data">piero.cahuana.69.palomino@gmail.com</span>
+						
+							<a href="mailto:piero.cahuana.69.palomino@gmail.com" target="_blank"
+							class="contact__button">Escribeme <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+							</a>
+						</div>
+						<div class="contact__card">
+							<i class='bx bxl-whatsapp contact__card-icon' ></i>
+							<h3 class="contact__card-title">Watsap</h3>
+							<span class="contact__card-data">930-499-970</span>
+						
+							<a href="https://api.whatsapp.com/send?phone=51930499970&text=Hola, quiero informacion!" target="_blank"
+							class="contact__button">Escribeme <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+							</a>
+						</div>
+						<div class="contact__card">
+							<i class='bx bxl-messenger contact__card-icon' ></i>
+							<h3 class="contact__card-title">Messenger</h3>
+							<span class="contact__card-data">piero.com</span>
+						
+							<a href="https://m.me/pieroCahuanaP" target="_blank"
+							class="contact__button">Escribeme <i class='bx bx-right-arrow-alt contact__button-icon' ></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="contact__content">
+					<h3 class="contact__title">Describa su proyecto</h3>					
+					<form  id="form" class="contact__form">
+						<div class="contact__form-div">
+							<label for="name" class="contact__form-tag">Nombres</label>
+							<input id="name" name="name" type="text" placeholder="Inserte nombre" class="contact__form-input">
+						</div>
+						<div class="contact__form-div">
+							<label for="email" class="contact__form-tag">Email</label>
+							<input id="email" name="email" type="email" placeholder="Inserte email" class="contact__form-input">
+						</div>
+						<div class="contact__form-div contact__form-area">
+							<label for="message" class="contact__form-tag">Proyecto</label>
+							<textarea id="messagge" name="message" id="" cols="30" rows="10" placeholder="De que trata el proyecto" class="contact__form-input"></textarea>
+						</div>
+						<button type="submit" class="button" id="button">Enviar mensaje</button>
+					</form>
+					<a href="mailto:piero.cahuana.69.palomino@gmail.com" id="emailN"></a>
+				</div>
+
+			</div>
+		</section>
+
+
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__container container">
+			<h1 class="footer__title"> Piero Cahuana</h1>
+			<ul class="footer__list">
+				<li class="lista">
+					<a href="#about" class="footer__link">Sobre mi</a>
+				</li>
+				<li class="lista">
+					<a href="#work" class="footer__link">Certificados</a>
+				</li>
+				<li class="lista">
+					<a href="#testimonial" class="footer__link">Testimonios</a>
+				</li>
+			</ul>
+
+			<ul class="footer__social">
+				<a href="https://www.facebook.com/pieroCahuanaP" class="footer__social-link" target="_blank">
+					<i class='bx bxl-facebook' ></i>
+				</a>
+				<a href="https://www.instagram.com/pierocahuanapalomino/" class="footer__social-link" target="_blank">
+					<i class='bx bxl-instagram' ></i>
+				</a>
+				<a href="https://twitter.com/CahuanaPieroRau" class="footer__social-link" target="_blank">
+					<i class='bx bxl-twitter' ></i>
+				</a>
+
+			</ul>
+			<span class="footer__copy">
+					&#169; Piero Cahuana. Derechos reservados .
+			</span>
+		
+	</footer>
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+
+	<script src="assets/js/swiper-bundle.min.js"></script> 
+	<script src="assets/js/mixitup.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	
+	<script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/formulario.js"></script>
+</body>
+</html>
